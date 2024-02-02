@@ -10,13 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="./main.js" defer></script>
     <title>Weather API Practice</title>
   </head>
   <body>
     <div class="title">
-      <h1>Weather App</h1>
+      <h1>What's the Weather?</h1>
     </div>
-    <section id="days" class="days-container"></section>
-    <script src="./main.js"></script>
+    <form id="city-form" class="city-form">
+      <label for="user-zipcode"></label>
+      <input
+        type="text"
+        id="user-zipcode"
+        placeholder="Enter 5-digit zipcode"
+      />
+      <button type="submit" id="user-zipcode">Search</button>
+    </form>
+    <section id="days" class="weather-container"></section>
   </body>
 </html>
