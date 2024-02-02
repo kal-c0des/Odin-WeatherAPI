@@ -1,12 +1,12 @@
 const apiUrl =
-  "http://api.weatherapi.com/v1/forecast.json?key=00f96067b7bf4b18ad444101242401&q=96746&days=7&aqi=no&alerts=no";
+  "https://api.weatherapi.com/v1/forecast.json?key=00f96067b7bf4b18ad444101242401&q=96746&days=7&aqi=no&alerts=no";
 const cityForm = document.querySelector("#city-form");
 
 cityForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const userZip = document.querySelector("#user-zipcode").value.trim();
 
-  let newUrl = `http://api.weatherapi.com/v1/forecast.json?key=00f96067b7bf4b18ad444101242401&q=${userZip}&days=7&aqi=no&alerts=no`;
+  let newUrl = `https://api.weatherapi.com/v1/forecast.json?key=00f96067b7bf4b18ad444101242401&q=${userZip}&days=7&aqi=no&alerts=no`;
 
   fetch(newUrl)
     .then((response) => {
