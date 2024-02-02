@@ -1,10 +1,10 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
 body {
-  background-image: url(./image/kendal-wmsZZgIxqiA-unsplash.jpg);
+  background-image: url(./image/mark-basarab-1OtUkD_8svc-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -14,18 +14,20 @@ body {
   color: white;
   height: 100vh;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
 }
 
 .title {
   display: flex;
   justify-content: center;
   color: white;
+  margin-top: 10px;
 }
 
 .city-form {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 input {
@@ -51,7 +53,7 @@ button {
   background-color: transparent;
   height: 100%;
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   /* border: 1px solid red; */
 }
 
@@ -63,7 +65,7 @@ button {
   align-content: center;
   width: 275px;
   height: 300px;
-  margin: 24px;
+  margin: 0px 24px;
   padding: 0px 10px;
   border: 2px solid rgba(177, 193, 255, 0.226);
   border-radius: 8px;
